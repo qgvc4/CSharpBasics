@@ -82,6 +82,7 @@ namespace CSharpBasics
                     break;
             }
 
+            Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine(integral + " is an integral");
 
             for (int i = 5; i <= 10; i++)
